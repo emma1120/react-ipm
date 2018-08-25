@@ -2,8 +2,10 @@
 import React, {Component} from 'react'
 import { Route,BrowserRouter} from 'react-router-dom';
 
-import home from '../pages/home'
-import record from '../pages/record'
+import home from '@/pages/home'
+import record from '@/pages/record'
+import my from '@/pages/my'
+import group from '@/pages/group'
 
 class Roots extends Component{
    constructor(props){
@@ -24,8 +26,10 @@ const RouterConfig = (
     <BrowserRouter>
       <div>
       <Route exact path='/' component={home}/>
-      {/* both /roster and /roster/:number begin with /roster */}
+
       <Route path='/record' component={record}/>
+      <Route path='/my' component={my}/>
+      <Route path='/group' component={group}/>
       </div>
     </BrowserRouter>
 )
