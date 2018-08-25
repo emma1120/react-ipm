@@ -1,0 +1,90 @@
+html{
+    overflow-x:hidden;
+}
+
+.nav-list{
+    padding-left:15px;
+    background:#fff;
+    width:100%;
+    list-style: none; 
+    font-size:14px;
+}
+ .nav-list-item{
+   display: block;
+   display: flex;
+   flex-flow: row;
+   padding:10px 15px 10px 0;
+   border-bottom:1px solid #ddd;
+}
+
+.nav-list-item .left-title{
+    flex:1;
+    align-self: center;
+}
+.nav-list-item .center-title{
+    flex:1;
+    align-self: center;
+    text-align: center;
+}
+.nav-list-item .right-substance{
+    flex:2;
+    text-align:right;
+    align-self: center;
+}
+.nav-list-item .right-substance i{
+   font-weight: bold;
+   font-size:18px;
+   vertical-align: middle;
+}
+.nav-list-item .my-img{
+    width:60px;
+    height:60px;
+    display: inline-block;
+}
+
+.phone-Input{
+    width: 98%;
+    height: 30px;
+    border:1px solid #ccc;
+    margin: 10px auto 0;
+}
+.errorTip{
+    color:red;
+}
+.btn-modal{
+    padding-left:5px;
+}
+.page-inner.bg-white{
+   background: #fff;
+}
+.header-cash{
+    height:40px;
+    line-height:40px;
+    background: #f36719;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+}
+.all-money-txt{
+    text-align: center;
+    font-size: 14px;;
+    color:#333;
+    height: 60px;
+    line-height: 60px;
+}
+input[type="submit"].input-button{
+    background:#f36719;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+input[disabled].input-button{
+    background: #f9ddcd;
+}
+.input-button-box{
+    margin:30px 40px;
+}

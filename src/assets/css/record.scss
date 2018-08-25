@@ -1,0 +1,57 @@
+html{
+    overflow-x:hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.input-data-box{
+    padding:5px 15px;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    background: #f7f7f8;
+}
+.input-data-box-label{
+    width:40px;
+    text-align: center;
+    line-height:30px;
+}
+.input-data-box-item{
+    flex:1;
+}
+.input-data-box-item input {
+    width: 100%;
+    display: block;
+    padding-right: 26px;
+    padding-left: 11px;
+    background: inherit;
+    height:100%;
+    color: #f36719;
+    font-size:16px;
+}
+
+
+.serch-time{
+    height:30px;
+    background: inherit;
+    line-height: 30px;
+    font-size:14px;
+    border-bottom:1px solid #ddd;
+    color:#f36719;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    position: relative;
+
+}
+.serch-time span{
+    flex:1;
+    text-indent: 4px;
+}
+.serch-time i{
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    top: 0;
+}

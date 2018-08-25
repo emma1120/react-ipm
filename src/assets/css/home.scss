@@ -1,0 +1,74 @@
+@import "./tools/_flex.scss";
+%flex{
+  @include flexBox;
+  @include justify-content(flex-start);
+  @include align-items(center);
+  @include flexDirection(row);
+}
+html{
+    overflow-x:hidden;
+}
+.home-title{
+  width:100%;
+  height:auto;
+  padding:20px 10px 20px 10px;
+  background: #f36719;
+  color:#fff;
+  @include flexBox;
+  @include flexDirection(row);
+  .home-title-left{
+     width:70px;
+     img{
+         width:60px;
+         height:60px;
+         border-radius: 50%;
+     }
+  }
+  .home-title-right{
+      @include flex(1);
+      .welecom-txt{
+          font-size:20px;
+      }
+      .ratio-txt{
+          font-size:16px;
+          margin-bottom:10px;
+      }
+      .money-txt-box{
+          @include flexBox;
+          @include flexDirection(row);
+          span{
+              @include flex(1);
+              font-size:16px;
+          }
+      }
+  }
+  
+}
+.home-notice{
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    font-size:14px;
+}
+
+
+
+
+.home-total-bar{
+    width:100%;
+    height:auto;
+    padding:10px;
+    background:#fff;
+}
+.home-total-bar .bar-title{
+   font-size:18px;
+   color:#333;
+}
+.home-total-bar .bar-title i{
+    color:#a5a5a5;
+    color:24px;
+}
+.charts-box{
+    width:100%;
+    height:200px;
+}

@@ -1,0 +1,43 @@
+
+
+.search-input-header{
+    display:flex;
+    font-size:14px;
+    flex-flow: row;
+    padding:10px 15px 10px;
+    
+}
+.search-input-box{
+    flex:1;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    display: flex;
+    padding:0 5px;
+}
+.search-input-box .iconfont{
+   vertical-align: middle;
+}
+.search-cancle{
+    width:40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color:#0D47A1;
+}
+.search-input-box .search-input{
+    flex:1;
+    background: inherit;
+}
+
+
+.group-list-wrapper{
+    position: absolute;
+    top: 166px;
+    bottom: 46px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding:8px 0;
+   // background: #efeff4;
+}
